@@ -18,4 +18,5 @@ Como bien dice el nombre del algoritmo señalado, el proceso que llegue primero 
 Este algoritmo permite seleccionar un proceso no sólo por el momento de llegada, si no que también por la duración que este tenga. De esta forma, una vez se encuentren dos o más procesos en espera, se determinará la ejecución por el que menor duración tenga. 
 
 3) ROUND ROBIN (CON PRIORIDAD O QUANTUM -En producción)
+ 
 Este algoritmo es una mejora del FIRST COME FIRST SERVED, ya que concede un quantum de ejecución contínua, lo que significa que en caso de agotar la duración del proceso según el quantum dado, este pasará a finalizado y continuará otro de los procesos que hayan llegado primero. 
