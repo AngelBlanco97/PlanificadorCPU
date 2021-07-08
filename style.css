@@ -1,0 +1,72 @@
+body {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #E5E2CF;
+}
+
+table{   
+    text-align: center;
+    border-collapse: collapse;
+    width: 550px;
+    background-color:#91CBCA;
+}
+th{
+    height: 30px;
+    width: 33%;
+    border: solid;
+    border-width: 0.5px;
+}
+
+
+.title{
+    justify-content: center;
+    text-align: center;
+}
+
+
+td{
+    background-color: white;
+    border-collapse: collapse;
+    border: solid;
+    border-width: 1px;
+    width: 6%;
+    text-align: center;
+}
+
+#ejecucion{
+    background-color: green;
+}
+
+#espera {
+    background-color:brown ;
+}
+
+.tablaEspecial table {
+    text-align: center;
+    border: 1px solid #000;
+}
+.tablaEspecial th,td,tr {
+    width: 12.5%;
+    justify-content: ce;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.tablaEspecial2 table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 1px solid #000;
+}
+.tablaEspecial2 tr,td{
+    width: 5%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
